@@ -11,9 +11,9 @@
  * @wordpress-plugin
  * Plugin Name:         Better MetaBox Headers
  * Plugin URI:          https://vanaf1979.nl/better-metabox-headers
- * Description:         Better MetaBox Headers for Gutenberg.
+ * Description:         Better MetaBox Headers Plugin for WordPress Gutenberg.
  * Version:             1.0.0
- * Requires at least:   5.1
+ * Requires at least:   5.2
  * Requires PHP:        7.0
  * Author:              Stephan Nijman
  * Author URI:          https://vanaf1979.nl
