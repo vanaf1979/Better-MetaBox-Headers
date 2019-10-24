@@ -1,0 +1,63 @@
+
+/* Header text */
+#poststuff .postbox h2.hndle {
+    font-size: 1rem;
+    font-weight: normal;
+    background: #f3f4f5;
+    border-left: 2px solid #007eb1;
+}
+    /* Header cros icon */
+    #poststuff .postbox h2.hndle:before {
+        display: inline-block;
+        margin: -1px 5px 0px -3px;
+        float: left;
+        content: "\f345";
+        font-family: "dashicons";
+        font-size: 19px;
+        font-weight: normal;
+        color: #007eb1;
+    }
+        #poststuff .postbox:first-child h2.hndle:before {
+            margin: -2px 5px 0px -3px;
+        }
+
+    /* ACF Edit field group icon */
+    .acf-postbox > h2.hndle .acf-hndle-cog {
+        color: #72777c !important;
+        font-size: 16px !important;
+        padding:  2px 2px 0px 2px !important;
+    }
+
+    /* Meta box close/open toggle */
+    #poststuff .handlediv {
+        position: relative;
+        z-index: 9999;
+    }
+        #poststuff .handlediv .toggle-indicator::before {
+            color: #323232;
+            font-size: 28px;
+            margin-top: 12px;
+        }
+
+/* Meta box content */
+#poststuff .postbox .inside {
+    box-sizing: border-box;
+    border-left: 2px solid #dddddd;
+    padding: 0px 0px 40px 0px !important;
+}  
+
+
+@media screen and (max-width: 782px) {
+
+    #poststuff .postbox h2.hndle:before,
+    #poststuff .postbox:first-child h2.hndle:before {
+        margin: -1px 5px 0px -3px;
+    }
+
+
+    /* Meta box close/open toggle */
+    #poststuff .handlediv .toggle-indicator::before {
+        margin-top: 6px;
+    }
+
+}
